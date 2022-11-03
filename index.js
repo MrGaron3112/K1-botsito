@@ -19,6 +19,7 @@ const client = new Client({
 
 // colecciones
 client.commands = new Collection();
+client.slashCommands = new Collection();
 client.color = config.color
 
 // leer handlers
